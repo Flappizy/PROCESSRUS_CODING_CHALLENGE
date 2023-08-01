@@ -68,3 +68,32 @@ Request body:
 Endpoint: `GET /api/Access/fruits`
 
 No request body is required for this endpoint.
+
+### DATA To Test With
+When you run the application the database is automatically seeded with the following users with password `testPassword1!`, you can use the users to test the app
+`{
+    FirstName = "Ade",
+    LastName = "Smith",
+    Company = "Process",
+    UserName = "ade.smith@gmail.com",
+    Email = "ade.smith@gmail.com",
+    AccountType = AccountType.Admin
+}`
+
+`{
+    FirstName = "John",
+    LastName = "Samuel",
+    Company = "Process",
+    UserName = "john.samuel@gmail.com",
+    Email = "john.samuel@gmail.com",
+    AccountType = AccountType.BackOffice
+}`
+            
+`{
+    FirstName = "Doe",
+    LastName = "Leo",
+    Company = "Process",
+    UserName = "doe.low@gmail.com",
+    Email = "doe.low@gmail.com",
+    AccountType = AccountType.FrontOffice
+}`
