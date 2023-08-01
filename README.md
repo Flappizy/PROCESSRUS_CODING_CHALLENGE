@@ -43,6 +43,7 @@ Request body:
     "company": "string", 
     "accountType": 0 
 }
+
 The `accountType` property specifies the type of account to create:
 
 - `0`: FrontOffice
@@ -55,7 +56,11 @@ Endpoint: `POST /api/Auth/login`
 
 Request body:
 
-```json { "email": "string", "password": "string" }
+```json
+{
+    "email": "string",
+    "password": "string"
+}
 
 
 ### Get Fruits
