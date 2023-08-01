@@ -1,6 +1,6 @@
 # ProcessRUs Coding Challenge
 
-Welcome to the ProcessRUs Coding Challenge! This project is a demonstration of a .NET 7 application with SQL Server LocalDB.
+Welcome to the ProcessRUs Coding Challenge! This project is a demonstration of a .NET 7 application with JWT Authentication and SQL Server LocalDB.
 
 ## Prerequisites
 
