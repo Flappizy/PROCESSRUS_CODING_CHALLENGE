@@ -33,7 +33,7 @@ Here's how to use the available endpoints:
 Endpoint: `POST /api/Auth/signup`
 
 Request body:
-json 
+`json 
 { 
     "firstName": "string", 
     "lastName": "string", 
@@ -42,7 +42,7 @@ json
     "confirmPassword": "string", 
     "company": "string", 
     "accountType": 0 
-}
+}`
 
 The `accountType` property specifies the type of account to create:
 
