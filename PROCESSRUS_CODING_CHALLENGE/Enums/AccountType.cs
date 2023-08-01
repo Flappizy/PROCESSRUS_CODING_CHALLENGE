@@ -3,5 +3,5 @@ public enum AccountType
 {
     FrontOffice = 0,
     BackOffice = 1,
-    Admin
+    Admin = 2
 }
